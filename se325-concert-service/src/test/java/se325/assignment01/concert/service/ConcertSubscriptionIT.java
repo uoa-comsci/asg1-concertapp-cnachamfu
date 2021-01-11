@@ -70,9 +70,9 @@ public class ConcertSubscriptionIT {
         // Wait for at most 1 second - the failure should be near-instant.
         Response response = future.get(1, TimeUnit.SECONDS);
 
-      //  assertEquals(Response.Status.UNAUTHORIZED.getStatusCode(), response.getStatus());
+        assertEquals(Response.Status.UNAUTHORIZED.getStatusCode(), response.getStatus());
        // simulate when a test fails
-        assertEquals(Response.Status.UNAUTHORIZED.getStatusCode(), 0);
+        //assertEquals(Response.Status.UNAUTHORIZED.getStatusCode(), 0);
     }
 
     /**

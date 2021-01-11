@@ -72,10 +72,11 @@
                     <release>11</release>
                 </configuration> 
                 -->
-                <configuration>
-                      <source>11</source>
-                      <target>11</target>
+                 <configuration>
+                      <source>8</source>
+                      <target>8</target>
                </configuration>
+             
            </plugin>
         </plugins>
     </build>
